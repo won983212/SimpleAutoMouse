@@ -12,7 +12,7 @@ namespace AutoMouse.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "15.8.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "16.10.0.0")]
     internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
         
         private static Settings defaultInstance = ((Settings)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new Settings())));
@@ -25,25 +25,25 @@ namespace AutoMouse.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("None")]
-        public string LeftKey {
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public int KeyLeftActive {
             get {
-                return ((string)(this["LeftKey"]));
+                return ((int)(this["KeyLeftActive"]));
             }
             set {
-                this["LeftKey"] = value;
+                this["KeyLeftActive"] = value;
             }
         }
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("None")]
-        public string RightKey {
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public int KeyRightActive {
             get {
-                return ((string)(this["RightKey"]));
+                return ((int)(this["KeyRightActive"]));
             }
             set {
-                this["RightKey"] = value;
+                this["KeyRightActive"] = value;
             }
         }
         
